@@ -13,10 +13,11 @@
         android:theme="@style/Theme.ListaDeCompras"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="ViniShuet.com.github.listadecompras.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.ListaDeCompras">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="Instantiatable">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
